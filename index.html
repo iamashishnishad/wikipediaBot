@@ -6,58 +6,36 @@
     <title>WikiPedia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
-    <link href="//telegram.org/css/telegram.css?231" rel="stylesheet" media="screen">
+    
+     <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./index.css">
   </head>
   
   
   
   <body class="no_transition">
-      <div class="tgme_background_wrap">
-    <!-- <canvas id="tgme_background" class="tgme_background default" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas> -->
-    <div class="tgme_background_pattern default"></div>
-  </div>
-    <div class="tgme_page_wrap">
-       <!-- <div class="tgme_head_wrap">
-        <!-- <div class="tgme_head">
-          <a href="//telegram.org/" class="tgme_head_brand">
-            <svg class="tgme_logo" height="34" viewBox="0 0 133 34" width="133" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
-                <circle cx="17" cy="17" fill="var(--accent-btn-color)" r="17"/><path d="m7.06510669 16.9258959c5.22739451-2.1065178 8.71314291-3.4952633 10.45724521-4.1662364 4.9797665-1.9157646 6.0145193-2.2485535 6.6889567-2.2595423.1483363-.0024169.480005.0315855.6948461.192827.1814076.1361492.23132.3200675.2552048.4491519.0238847.1290844.0536269.4231419.0299841.65291-.2698553 2.6225356-1.4375148 8.986738-2.0315537 11.9240228-.2513602 1.2428753-.7499132 1.5088847-1.2290685 1.5496672-1.0413153.0886298-1.8284257-.4857912-2.8369905-1.0972863-1.5782048-.9568691-2.5327083-1.3984317-4.0646293-2.3321592-1.7703998-1.0790837-.212559-1.583655.7963867-2.5529189.2640459-.2536609 4.7753906-4.3097041 4.755976-4.431706-.0070494-.0442984-.1409018-.481649-.2457499-.5678447-.104848-.0861957-.2595946-.0567202-.3712641-.033278-.1582881.0332286-2.6794907 1.5745492-7.5636077 4.6239616-.715635.4545193-1.3638349.6759763-1.9445998.6643712-.64024672-.0127938-1.87182452-.334829-2.78737602-.6100966-1.12296117-.3376271-1.53748501-.4966332-1.45976769-1.0700283.04048-.2986597.32581586-.610598.8560076-.935815z" fill="#fff"/><path d="m49.4 24v-12.562h-4.224v-2.266h11.198v2.266h-4.268v12.562zm16.094-4.598h-7.172c.066 1.936 1.562 2.772 3.3 2.772 1.254 0 2.134-.198 2.97-.484l.396 1.848c-.924.396-2.2.682-3.74.682-3.476 0-5.522-2.134-5.522-5.412 0-2.97 1.804-5.764 5.236-5.764 3.476 0 4.62 2.86 4.62 5.214 0 .506-.044.902-.088 1.144zm-7.172-1.892h4.708c.022-.99-.418-2.618-2.222-2.618-1.672 0-2.376 1.518-2.486 2.618zm9.538 6.49v-15.62h2.706v15.62zm14.84-4.598h-7.172c.066 1.936 1.562 2.772 3.3 2.772 1.254 0 2.134-.198 2.97-.484l.396 1.848c-.924.396-2.2.682-3.74.682-3.476 0-5.522-2.134-5.522-5.412 0-2.97 1.804-5.764 5.236-5.764 3.476 0 4.62 2.86 4.62 5.214 0 .506-.044.902-.088 1.144zm-7.172-1.892h4.708c.022-.99-.418-2.618-2.222-2.618-1.672 0-2.376 1.518-2.486 2.618zm19.24-1.144v6.072c0 2.244-.462 3.85-1.584 4.862-1.1.99-2.662 1.298-4.136 1.298-1.364 0-2.816-.308-3.74-.858l.594-2.046c.682.396 1.826.814 3.124.814 1.76 0 3.08-.924 3.08-3.234v-.924h-.044c-.616.946-1.694 1.584-3.124 1.584-2.662 0-4.554-2.2-4.554-5.236 0-3.52 2.288-5.654 4.862-5.654 1.65 0 2.596.792 3.102 1.672h.044l.11-1.43h2.354c-.044.726-.088 1.606-.088 3.08zm-2.706 2.948v-1.738c0-.264-.022-.506-.088-.726-.286-.99-1.056-1.738-2.2-1.738-1.518 0-2.64 1.32-2.64 3.498 0 1.826.924 3.3 2.618 3.3 1.012 0 1.892-.66 2.2-1.65.088-.264.11-.638.11-.946zm5.622 4.686v-7.26c0-1.452-.022-2.508-.088-3.454h2.332l.11 2.024h.066c.528-1.496 1.782-2.266 2.948-2.266.264 0 .418.022.638.066v2.53c-.242-.044-.484-.066-.814-.066-1.276 0-2.178.814-2.42 2.046-.044.242-.066.528-.066.814v5.566zm16.05-6.424v3.85c0 .968.044 1.914.176 2.574h-2.442l-.198-1.188h-.066c-.638.836-1.76 1.43-3.168 1.43-2.156 0-3.366-1.562-3.366-3.19 0-2.684 2.398-4.07 6.358-4.048v-.176c0-.704-.286-1.87-2.178-1.87-1.056 0-2.156.33-2.882.792l-.528-1.76c.792-.484 2.178-.946 3.872-.946 3.432 0 4.422 2.178 4.422 4.532zm-2.64 2.662v-1.474c-1.914-.022-3.74.374-3.74 2.002 0 1.056.682 1.54 1.54 1.54 1.1 0 1.87-.704 2.134-1.474.066-.198.066-.396.066-.594zm5.6 3.762v-7.524c0-1.232-.044-2.266-.088-3.19h2.31l.132 1.584h.066c.506-.836 1.474-1.826 3.3-1.826 1.408 0 2.508.792 2.97 1.98h.044c.374-.594.814-1.034 1.298-1.342.616-.418 1.298-.638 2.2-.638 1.76 0 3.564 1.21 3.564 4.642v6.314h-2.64v-5.918c0-1.782-.616-2.838-1.914-2.838-.924 0-1.606.66-1.892 1.43-.088.242-.132.594-.132.902v6.424h-2.64v-6.204c0-1.496-.594-2.552-1.848-2.552-1.012 0-1.694.792-1.958 1.518-.088.286-.132.594-.132.902v6.336z" fill="var(--tme-logo-color)" fill-rule="nonzero"/>
-              </g>
-            </svg>
-          </a>
-          <a class="tgme_head_right_btn" href="//telegram.org/dl?tme=f7d8938da124e1532d_9140853766723138399">
-            Download
-          </a>
-        </div> -->
-      </div>  -->
+
+    
       <div class="tgme_body_wrap">
         <div class="tgme_page">
           <div class="tgme_page_photo">
-  <a href="tg://resolve?domain=random_wiki_article_bot"><img class="tgme_page_photo_image" src="https://cdn5.telegram-cdn.org/file/PduHldJceeOnrtpHZmqMlgpX3g5oGv2-4yARlrhMNZpcH_2FrEVf5PptsOw9zt2d4H-gQymPuL59APvoSlcocKsbt3oRYD_3htuVShhhxthMknAEMKTMlnXelxA7BV1MDmdS2l-tVax4SBtxrWuEQOQ-R74Yn-MrQPn0CLFkoeRIWoPgQOO07X7-u6TznFUm8-hsd2EG9NToeMLzrjgQjHFHJLOUPfLczSYvV0YhaYPImggG6LQ8-Ha4b4WJdQSVNmkuRf1Svps_OaoqjO75ueWKiGkXQL1Ln20et60Rr4zMol4zyRf7ddcxDs6ApzS8oEjj1OE12MAlJkt60NWQRA.jpg"></a>
+  <a href="tg://resolve?domain=random_wiki_article_bot"><img class="tgme_page_photo_image" src="data:image/png;base64,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"></a>
 </div>
-<div class="tgme_page_title"><span dir="auto">Random Wiki Article</span></div>
-<div class="tgme_page_extra">
-  @random_wiki_article_bot
-</div>
+<div class="tgme_page_title"><span dir="auto">WikiPedia Bot</span></div>
 
 <div class="tgme_page_action">
-  <a class="tgme_action_button_new shine" href="tg://resolve?domain=random_wiki_article_bot">Send Message</a>
+
+
+  <a class="button-27" href="tg://resolve?domain=random_wiki_article_bot">Send Message</a>
 </div>
-<!-- WEBOGRAM_BTN -->
-<!-- PRIVACY_BTN -->
-<div class="tgme_page_additional">
-  If you have <strong>Telegram</strong>, you can contact <br><strong>Random Wiki Article</strong> right away.
-</div>
-        </div>
+
+    </div>
         
-      </div>
+    </div>
     </div>
 
-    <div id="tgme_frame_cont"></div>
-
-    <script src="//telegram.org/js/tgwallpaper.min.js?3"></script>
 
 
   </body>
